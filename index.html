@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.rawgit.com/oliver-moran/jimp/v0.2.27/browser/lib/jimp.min.js"></script>
+    <script>
+        
+    async function convertUrlToBmp(url, outputPath) {
+        try {
+            const image = await Jimp.read(url);
+            // image.write(outputPath);
+            console.log()
+            console.log(`Image converted to BMP and saved to ${outputPath}`);
+            return outputPath;
+        } catch (error) {
+            console.error(error);
+        }
+        }
+
+    async function downloadBmpFromUrl(urlImg) {
+        const outputPath = 'image.bmp';
+        const bmpPath = await convertUrlToBmp(urlImg, outputPath);
+
+        const response = await fetch(bmpPath);
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'image.bmp';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+
+    // Sử dụng hàm để tải xuống file BMP từ URL
+    downloadBmpFromUrl("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_kZid4hWujHinz7j_G44EKwAzVfNUgPz3fJ1AHKFyg9w0SfplF8sNQ_qKCTcUVJOgO0&usqp=CAU");
+
+    </script>
+</body>
+</html>
