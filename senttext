@@ -1,14 +1,147 @@
-curl 'http://103.21.151.166:8680/v1.0/vmsboard/displayscript/script-base/404ef6c0-3c74-4bbe-b423-48662a8461cb' \
-  -X 'PUT' \
-  -H 'Accept: application/json, text/plain, */*' \
-  -H 'Accept-Language: vi,en-US;q=0.9,en;q=0.8' \
-  -H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJVZHhQNnRPNlJNRzNES29YN05fZHNONXItbzl3X1dqb1J1cGxvUUlGYjBBIn0.eyJleHAiOjE2ODE0NzYzMjIsImlhdCI6MTY4MTQ0MDMyMywiYXV0aF90aW1lIjoxNjgxNDQwMzIyLCJqdGkiOiIyNThlYmEyNC01MmU1LTRhOWYtYjIyMi1jMmUyOTIxYjQ3MzMiLCJpc3MiOiJodHRwczovL2F1dGguZWxjb21sYWIuY29tOjg0NDMvYXV0aC9yZWFsbXMvc3NvLWRlbW8iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzQ4ZTFmMjUtYzkyNi00NTM2LWFkMTctNWIxZGVlMTlhMzNjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYXBwLXZ1ZSIsIm5vbmNlIjoiMzAxZDllNTAtYTNhNC00NjMwLTgxNjMtMDE4OTNlMWE0MzlmIiwic2Vzc2lvbl9zdGF0ZSI6IjY2ZmE1NjdhLWQ1OTgtNDNkNS04YTRjLTFhYWY3NDkzMjFkNyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1rZXljbG9hay1kZW1vIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUgaXRtb24iLCJzaWQiOiI2NmZhNTY3YS1kNTk4LTQzZDUtOGE0Yy0xYWFmNzQ5MzIxZDciLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsInVzZXJfaWQiOiIzNDhlMWYyNS1jOTI2LTQ1MzYtYWQxNy01YjFkZWUxOWEzM2MiLCJuYW1lIjoiQWRtaW4iLCJncm91cHMiOlsiL2dyb3VwVGVzdCIsIi_EkOG7mWkgQ1NHVCBz4buRIDIiXSwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWRtaW4iLCJnaXZlbl9uYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGVsY29tLmNvbSJ9.Pox2PtOu39Pxve-q75gSO0BbPchA60fjwCuOwUzY60CS_w_TuS867iPWlfZQYBhdDDcEcmVNpNNnHa8DvWMG3edLYhiLIu4JKphtEy3znCD3_K-ZuPI6StYjcGtJGMKkw5oVLBGslug2fNpIVej4WcAn-MdEwjBOzxyQKmLs889e_T0AQToNsxqF-EoHOj-vnhFU_Jwl4GbM-1kG0qNx9bV-9yOuSfzT6tyUp8zGcc-qaXuRIi7XBFDDWuvFqHo0MiTAXVc4aoJ-5q3MIgC2eg3hwCB0UJamWcx-cafJX7xUGRsnrjbiAO8Jfs4cEJ_fsmyIyyBUVdy6J5NcYhhsvQ' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Connection: keep-alive' \
-  -H 'Content-Type: application/json;charset=UTF-8' \
-  -H 'Origin: http://localhost:8080' \
-  -H 'Pragma: no-cache' \
-  -H 'Referer: http://localhost:8080/' \
-  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
-  --data-raw '{"name":"Biển giao thông 1","priority":4,"content":{"markup":"[pt100o0][g2]"},"source":[{"id":"50707aed-e8bd-40e6-992f-87ff2ac13525","data":[{"id":"e2b32205-29f5-433d-9a39-888746449cbc","top":80,"fill":"#F50F0F","left":50,"text":"60","type":"textbox","angle":0,"flipX":false,"flipY":false,"skewX":0,"skewY":0,"width":303.33,"height":177.41,"scaleX":0.99,"scaleY":0.96,"styles":[],"opacity":1,"originX":"left","originY":"top","version":"5.3.0","visible":true,"fillRule":"nonzero","fontSize":157,"minWidth":20,"overline":false,"pathSide":"left","playTime":0,"timeSpan":0,"direction":"ltr","fontStyle":"normal","pathAlign":"baseline","textAlign":"center","underline":false,"fontFamily":"Times New Roman","fontWeight":"bold","lineHeight":1.16,"paintFirst":"fill","charSpacing":0,"linethrough":false,"strokeWidth":1,"strokeLineCap":"butt","strokeUniform":false,"strokeLineJoin":"miter","backgroundColor":"","pathStartOffset":0,"splitByGrapheme":false,"strokeDashOffset":0,"strokeMiterLimit":4,"textBackgroundColor":"","globalCompositeOperation":"source-over"}],"order":0,"preview":"http://103.21.151.166:8683/v1.0/upload/preview/14042023/e449919e-42f5-421a-840e-67ecd23c2857.png","layoutId":1,"playTime":10}],"preview":"http://103.21.151.166:8683/v1.0/upload/preview/14042023/e449919e-42f5-421a-840e-67ecd23c2857.png","graphicId":"2da89251-55a7-4776-8155-db6fdcbe91e0"}' \
-  --compressed
+{
+  "name": "Bản tin thêm tay",
+  "boardId": "14f12fa8-162f-4a63-b70e-2714561c48da",
+  "newsLetterId": null,
+  "content": {
+    "markup": "[pt100o0][g3]"
+  },
+  "source": [
+    {
+      "id": "e0f992cf-beed-4e60-8e6d-f4c0e82301c6",
+      "data": [
+        {
+          "type": "textbox",
+          "version": "5.3.0",
+          "originX": "left",
+          "originY": "top",
+          "left": 9,
+          "top": 80,
+          "width": 299,
+          "height": 67.8,
+          "fill": "#ffffff",
+          "strokeWidth": 1,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "miter",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "fontFamily": "Times New Roman",
+          "fontWeight": "normal",
+          "fontSize": 30,
+          "text": "Cao tốc\nNha Trang - Cam Lâm",
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "left",
+          "fontStyle": "normal",
+          "lineHeight": 1,
+          "textBackgroundColor": "",
+          "charSpacing": "",
+          "styles": [],
+          "direction": "ltr",
+          "pathStartOffset": 0,
+          "pathSide": "left",
+          "pathAlign": "baseline",
+          "minWidth": 20,
+          "splitByGrapheme": false,
+          "id": "1c4c49b4-3a20-439b-8e37-be6c6c50a281",
+          "playTime": "",
+          "timeSpan": "",
+          "entryEffect": ""
+        },
+        {
+          "type": "textbox",
+          "version": "5.3.0",
+          "originX": "left",
+          "originY": "top",
+          "left": 407,
+          "top": 80,
+          "width": 305,
+          "height": 67.8,
+          "fill": "#ffffff",
+          "strokeWidth": 1,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "miter",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "fontFamily": "Times New Roman",
+          "fontWeight": "normal",
+          "fontSize": 30,
+          "text": "Cao tốc\nNha Trang - Cam Lâm",
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "left",
+          "fontStyle": "normal",
+          "lineHeight": 1,
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "styles": [
+            {
+              "start": 0,
+              "end": 26,
+              "style": {
+                "strokeWidth": 1,
+                "fill": "#ffffff",
+                "fontFamily": "Times New Roman",
+                "fontSize": 30,
+                "fontWeight": "normal",
+                "fontStyle": "normal",
+                "underline": false,
+                "overline": false,
+                "linethrough": false,
+                "deltaY": 0,
+                "textBackgroundColor": ""
+              }
+            }
+          ],
+          "direction": "ltr",
+          "pathStartOffset": 0,
+          "pathSide": "left",
+          "pathAlign": "baseline",
+          "minWidth": 20,
+          "splitByGrapheme": false,
+          "id": "63248ecf-75c7-4a0f-a8de-f97433c7973a"
+        }
+      ],
+      "order": 0,
+      "preview": "http://103.21.151.166:8683/v1.0/upload/preview/14042023/f529d213-9d5e-45d0-ac20-c98d63b0b206.png",
+      "layoutId": 102,
+      "playTime": 10
+    }
+  ],
+  "preview": "http://103.21.151.166:8683/v1.0/upload/preview/14042023/f529d213-9d5e-45d0-ac20-c98d63b0b206.png",
+  "graphicId": "39a39f05-46f3-4748-aef6-7303d88662f7",
+  "endTime": "11:50",
+  "parentId": "004fd67c-c576-4d81-8b2f-a52257234b5d",
+  "type": 1,
+  "date": "2023-04-14 00:00",
+  "createdBy": "348e1f25-c926-4536-ad17-5b1dee19a33c"
+}
